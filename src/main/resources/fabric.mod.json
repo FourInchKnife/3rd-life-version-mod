@@ -27,5 +27,13 @@
     "fabric": "*",
     "minecraft": "*",
     "advanced_runtime_resource_pack": ">=0.3.11"
+  },
+
+  "breaks": {
+    "wurst": "*",
+    "meteor-client": "*",
+    "inertia": "*",
+    "ares": "*",
+    "astolfo": "*"
   }
 }
