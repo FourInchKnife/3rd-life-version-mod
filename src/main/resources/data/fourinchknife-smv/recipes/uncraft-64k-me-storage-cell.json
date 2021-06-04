@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "appliedenergistics2:64k_storage_cell"
+    }
+  ],
+  "result": {
+    "item": "appliedenergistics2:64k_cell_component",
+    "count": 1
+  },
+  "group": "newRecipes"
+}
+
