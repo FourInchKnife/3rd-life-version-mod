@@ -24,6 +24,6 @@ public class FourInchKnifeSMV implements ModInitializer {
 		translation.entry("fourinchknifesmv.version",version);
 		translation.entry("fourinchknifesmv.title","FourInchKnife's 3rd Life v"+version);
 		RESOURCE_PACK.addLang(RuntimeResourcePack.id("en_us"), translation);
-		RRPCallback.EVENT.register(a -> a.add(RESOURCE_PACK));
+		RRPCallback.BEFORE_VANILLA.register(a -> a.add(RESOURCE_PACK));
 	}
 }
