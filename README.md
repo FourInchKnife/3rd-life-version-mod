@@ -1,7 +1,7 @@
 # 3rd Life SMV
-[![Gradle Build](https://github.com/FourInchKnife/3rd-life-version-mod/actions/workflows/build.yml/badge.svg)](https://github.com/FourInchKnife/3rd-life-version-mod/actions/workflows/build.yml)
+[![Gradle Build](https://github.com/ryleu/3rd-life-version-mod/actions/workflows/build.yml/badge.svg)](https://github.com/ryleu/3rd-life-version-mod/actions/workflows/build.yml)
 
-Makes a lang entry for fourinchknifesmv.version
+Makes a lang entry for ryleu.version
 
 Depends on: https://github.com/Devan-Kerman/ARRP
 

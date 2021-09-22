@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "fourinchknife-smv",
+  "id": "ryleu-smv",
   "version": "${version}",
 
   "name": "Server Modpack Version",
-  "description": "Sets the version for FourInchKnife's modpack.",
+  "description": "Sets the version for ryleu's modpack.",
   "authors": [
-    "FourInchKnife"
+    "ryleu"
   ],
   "contact": {
-    "sources": "https://github.com/FourInchKnife/Minecraft-Server-Version-Mod"
+    "sources": "https://github.com/ryleu/Minecraft-Server-Version-Mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/fourinchknife-smv/icon.png",
+  "icon": "assets/ryleu-smv/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.fourinchknife.smv.FourInchKnifeSMV"
+      "me.ryleu.smv.RyleuSMV"
     ]
   },
 
@@ -35,5 +35,43 @@
     "inertia": "*",
     "ares": "*",
     "astolfo": "*"
+  },
+
+  "overrides": {
+    "ferritecore": {
+      "-depends": {
+        "minecraft": ""
+      }
+    },
+    "hydrogen": {
+      "-depends": {
+        "minecraft": ""
+      }
+    },
+    "lambdynlights": {
+      "-depends": {
+        "minecraft": ""
+      }
+    },
+    "modmenu": {
+      "-depends": {
+        "minecraft": ""
+      }
+    },
+    "requiem": {
+      "-depends": {
+        "minecraft": ""
+      }
+    },
+    "sodium": {
+      "-depends": {
+        "minecraft": ""
+      }
+    },
+    "starlight": {
+      "-depends": {
+        "minecraft": ""
+      }
+    }
   }
 }

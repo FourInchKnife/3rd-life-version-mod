@@ -1,4 +1,4 @@
-package io.github.fourinchknife.smv;
+package me.ryleu.smv;
 
 import net.devtech.arrp.api.RRPCallback;
 import net.devtech.arrp.api.RuntimeResourcePack;
@@ -9,11 +9,11 @@ import net.fabricmc.loader.api.ModContainer;
 
 import java.util.Optional;
 
-public class FourInchKnifeSMV implements ModInitializer {
-	public static final RuntimeResourcePack RESOURCE_PACK = RuntimeResourcePack.create("fourinchknifesmv:test");
+public class RyleuSMV implements ModInitializer {
+	public static final RuntimeResourcePack RESOURCE_PACK = RuntimeResourcePack.create("ryleu-smv:lang");
 	@Override
 	public void onInitialize() {
-		final String modID = "fourinchknife-smv";
+		final String modID = "ryleu-smv";
 		final Optional<ModContainer> container =
 				FabricLoader.getInstance().getModContainer(modID);
 		String version = container.map(
@@ -21,8 +21,8 @@ public class FourInchKnifeSMV implements ModInitializer {
 		).orElse("???");
 
 		JLang translation = JLang.lang();
-		translation.entry("fourinchknifesmv.version",version);
-		translation.entry("fourinchknifesmv.title","FourInchKnife's 3rd Life v"+version);
+		translation.entry("ryleu-smv.version",version);
+		translation.entry("ryleu-smv.title","ryleu's 3rd Life v"+version);
 		RESOURCE_PACK.addLang(RuntimeResourcePack.id("en_us"), translation);
 		RRPCallback.BEFORE_VANILLA.register(a -> a.add(RESOURCE_PACK));
 	}
